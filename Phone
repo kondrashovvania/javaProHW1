@@ -1,0 +1,37 @@
+public class Phone {
+
+
+    int number;
+    String model;
+    float weight;
+    String receiveName;
+
+    public void receiveCall(String receiveName) {
+        System.out.println("Звонит :"+receiveName);
+    }
+
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setWeight(float weight) {
+        this.weight = weight;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public float getWeight() {
+        return weight;
+    }
+}
